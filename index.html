@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="es-MX">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <title>¡Fiesta de Pau con capibaras! Cumple 3 🦫</title>
+    <meta
+      name="description"
+      content="Estás invitado a la fiesta de cumpleaños 3 de Pau. Domingo 15 de noviembre de 2026 en Orizaba, Veracruz. ¡Confirma tu asistencia!"
+    />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_MX" />
+    <meta property="og:site_name" content="Fiesta con capibaras" />
+    <meta
+      property="og:title"
+      content="¡Fiesta de Pau con capibaras! Cumple 3 🦫"
+    />
+    <meta
+      property="og:description"
+      content="Domingo 15 de noviembre de 2026 · Privada 5 de Febrero #1004, Col. Constituyentes, Orizaba, Ver. ¡Confirma tu asistencia!"
+    />
+    <meta
+      property="og:image"
+      content="https://ik.imagekit.io/maslina/foto_1.jpeg"
+    />
+    <meta
+      property="og:image:alt"
+      content="Pau, festejada de la fiesta de capibaras"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <!-- Twitter / WhatsApp preview -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="¡Fiesta de Pau con capibaras! Cumple 3 🦫"
+    />
+    <meta
+      name="twitter:description"
+      content="Domingo 15 de noviembre de 2026 · Orizaba, Ver."
+    />
+    <meta
+      name="twitter:image"
+      content="https://ik.imagekit.io/maslina/foto_1.jpg"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <div class="fondo" aria-hidden="true"></div>
+
+    <!-- PORTADA -->
+    <div class="intro" id="intro">
+      <div class="tarjeta intro-card">
+        <p class="kicker">¡Estás invitado!</p>
+        <img
+          src="capibara.png"
+          alt="Capibara sonriente"
+          class="capibara-intro"
+        />
+        <button class="btn btn-principal" id="abrir">Abrir invitación</button>
+      </div>
+    </div>
+
+    <main id="contenido" hidden>
+      <!-- HERO -->
+      <section class="seccion hero" id="inicio">
+        <p class="kicker">Fiesta de cumpleaños</p>
+        <h1 class="titulo-principal">Un día con <span>los capibaras</span></h1>
+        <img
+          src="https://ik.imagekit.io/maslina/foto_2.jpg"
+          alt="Pau, festejada"
+          class="capibara-hero foto-hero"
+        />
+        <p class="festejado">
+          Jennifer Paulette <small>cumple 3 años · Pau</small>
+        </p>
+        <p class="desliza">Desliza para ver los detalles ↓</p>
+      </section>
+
+      <!-- DATOS -->
+      <section class="seccion" id="datos">
+        <h2 class="titulo-seccion">¿Cuándo y dónde?</h2>
+        <div class="tarjetas">
+          <article class="tarjeta">
+            <span class="icono-emoji" aria-hidden="true">📅</span>
+            <h3>Fecha</h3>
+            <p class="destacado">Domingo 15 de noviembre de 2026</p>
+          </article>
+          <article class="tarjeta">
+            <span class="icono-emoji" aria-hidden="true">⏰</span>
+            <h3>Hora</h3>
+            <p class="destacado">A partir de las 2:30 p.m.</p>
+          </article>
+          <article class="tarjeta">
+            <span class="icono-emoji" aria-hidden="true">📍</span>
+            <h3>Lugar</h3>
+            <p class="destacado">Casa de Pau</p>
+            <p>
+              Privada 5 de Febrero #1004, Col. Constituyentes, entre 10 y 12
+              norte, Orizaba, Ver.
+            </p>
+          </article>
+          <article class="tarjeta">
+            <span class="icono-emoji" aria-hidden="true">👕</span>
+            <h3>Vestimenta</h3>
+            <p class="destacado">Casual</p>
+            <p>Preséntate como más te guste</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- CUENTA REGRESIVA -->
+      <section class="seccion" id="countdown">
+        <h2 class="titulo-seccion">¡Ya falta poco!</h2>
+        <div class="contador">
+          <div class="tarjeta caja">
+            <span id="dias">00</span><small>días</small>
+          </div>
+          <div class="tarjeta caja">
+            <span id="horas">00</span><small>horas</small>
+          </div>
+          <div class="tarjeta caja">
+            <span id="minutos">00</span><small>minutos</small>
+          </div>
+          <div class="tarjeta caja">
+            <span id="segundos">00</span><small>segundos</small>
+          </div>
+        </div>
+      </section>
+
+      <!-- UBICACIÓN -->
+      <section class="seccion" id="ubicacion">
+        <div class="tarjeta tarjeta-ancha">
+          <h2 class="titulo-seccion">El lugar</h2>
+          <p class="texto-centro">
+            Te esperamos en casa de Pau, con juegos, actividades y mucha
+            diversión para los peques y para los grandes.
+          </p>
+          <a
+            class="btn btn-secundario"
+            href="https://www.google.com/maps/search/?api=1&query=Privada+5+de+Febrero+1004+Colonia+Constituyentes+Orizaba+Veracruz"
+            target="_blank"
+            rel="noopener"
+            >Ver ubicación en Google Maps</a
+          >
+        </div>
+      </section>
+
+      <!-- REGALO -->
+      <section class="seccion" id="regalo">
+        <div class="tarjeta tarjeta-ancha">
+          <h2 class="titulo-seccion">Regalo 🎁</h2>
+          <p class="texto-centro">
+            Tu presencia es el mejor regalo. Si quieres traer algo, será un
+            regalo libre.
+          </p>
+          <p class="texto-centro">
+            Por favor, incluye una notita escrita con tus buenos deseos para
+            Paulette.
+          </p>
+        </div>
+      </section>
+
+      <!-- RSVP -->
+      <section class="seccion" id="rsvp">
+        <h2 class="titulo-seccion">Confirma tu asistencia</h2>
+        <p class="texto-centro">
+          Por favor confirma antes del 10 de noviembre con Milagros.
+        </p>
+        <form id="form-rsvp" class="tarjeta form">
+          <label
+            >Nombre de quien confirma
+            <input
+              type="text"
+              id="nombre-invitado"
+              placeholder="Ej. Mamá de Mateo"
+              required
+            />
+          </label>
+          <label
+            >Número de personas
+            <select id="personas">
+              <option value="1">1 persona</option>
+              <option value="2">2 personas</option>
+              <option value="3">3 personas</option>
+              <option value="4">4 personas</option>
+            </select>
+          </label>
+          <label
+            >Mensaje para Paulette (opcional)
+            <textarea
+              id="mensaje"
+              rows="3"
+              placeholder="¡Feliz cumpleaños!"
+            ></textarea>
+          </label>
+          <button type="submit" class="btn btn-principal">
+            Confirmar por WhatsApp 🦫
+          </button>
+        </form>
+        <p class="confirmacion" id="confirmacion" hidden>
+          ¡Gracias! Tu confirmación está lista.
+        </p>
+      </section>
+
+      <footer class="pie">
+        <p>Te esperamos con mucho cariño 🦫💚</p>
+      </footer>
+    </main>
+
+    <!-- Música -->
+    <audio id="musica" preload="auto" src="capibara.mp3"></audio>
+
+    <!-- Botón flotante de pausa/reproducción -->
+    <button
+      class="reproductor"
+      id="play-pausa"
+      aria-label="Reproducir música"
+      hidden
+    >
+      <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true">
+        <path
+          fill="currentColor"
+          d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z"
+        />
+      </svg>
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
